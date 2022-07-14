@@ -1,6 +1,6 @@
-let i = 0;
 class SkylabArray {
   constructor(...values) {
+    let i = 0;
     do {
       this[i] = values[i];
       i += 1;
