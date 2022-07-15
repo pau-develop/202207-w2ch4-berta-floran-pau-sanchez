@@ -14,7 +14,7 @@ describe("Given a class SkylabArray that receives methods and properties", () =>
   });
 
   describe("When it's called with push method and receives a number 666 argument", () => {
-    test("Then it should push 666 number to the array", () => {
+    test("Then it should push 666 number to the array and return the new length of the array", () => {
       const value1 = 666;
       const arrayLength = 2;
       const testArray = new SkylabArray(333);

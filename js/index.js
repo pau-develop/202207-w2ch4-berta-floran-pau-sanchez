@@ -8,3 +8,6 @@ newArray.push("cigui");
 console.log(newArray);
 const filterArray = newArray.filter("cigui");
 console.log(filterArray);
+
+const kandil = newArray.push("kandil");
+console.log(kandil);
