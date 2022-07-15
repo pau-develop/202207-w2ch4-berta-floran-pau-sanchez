@@ -11,6 +11,7 @@ class SkylabArray {
   push(pushedObj) {
     this[this.length] = pushedObj;
     this.length += 1;
+    return this.length;
   }
 
   filter(value) {
